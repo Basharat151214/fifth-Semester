@@ -1,1 +1,14 @@
+A fault management system is required to detect faults in computers in the labs at FAST-NUCES Peshawar. These faults are reported by
+users who can also track the progress on the faults they have added. The computer labs are assigned to technicians. A technician 
+gets notification for a fault assigned to a computer in his lab. A technician can fix a fault, add comments to it that would be shared 
+with the user who has added the fault. On fixing a fault, the fault moves from faults pending list to the completed tasks list.
+A user shall be able to select a computer and view logged faults for the selected computer. A user who is logged in shall be able
+to log new faults for a computer. A technician shall be able to edit faults. Any person is allowed to register as a user but must 
+have a unique name. Only technical users (Technicians) are allowed to create new technical users. A search option shall be provided 
+to allow the generation of fault lists based on key words entered by the user. For example the status of a fault, or the person reporting,
+or the date a fault was reported. It shall be possible to assign a Technician a number of labs for which they are responsible.
+If a fault is logged then it will automatically be assigned to the technician who has responsibility for the lab. 
+Each fault has a unique number, status (open, close, allocated or under review), description, user (who added the fault),
+technician (to whom fault is assigned). The system does some statistical analysis and will present the top 3 users as those who has 
+identified most faults in a month as top users and top 3 technicians who have fixed most faults in a month.
 
